@@ -30,7 +30,7 @@ def convert_string_to_csv(string_data) :
                 k += 1
             data.append(line_values)
 
-    df = pd.DataFrame(data, columns=['id', 'Date', 'Numéro', 'Gestion', 'Titre', 'Type', 'Mode_passation',
+    df = pd.DataFrame(data, columns=['id', 'Date', 'Numero', 'Gestion', 'Titre', 'Type', 'Mode_passation',
                                      'Autorite_Contractante', 'Montant', 'Titulaire'])
 
     return df
